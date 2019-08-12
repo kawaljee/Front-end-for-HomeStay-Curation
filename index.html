@@ -5,8 +5,6 @@
         <link rel="icon" href="images/logo.jpg">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
-        <meta name="keywords" content="Kawaljeet Singh, Home Stay, home stay,accomodation, online hotels, online cabs">
-        <meta name="author" content="Kawaljeet Singh">
         <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <style>
@@ -28,35 +26,37 @@
     <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
         <header>
-                <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
                     <img src="images/logo.jpg" alt="logo" width="30px" height="30px">&nbsp;
                         <a class="navbar-brand" href="#">HomeTravel</a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                           <span class="navbar-toggler-icon"></span>
                         </button>
                       
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
                           <ul class="navbar-nav ml-auto">
                             <li class="nav-item active">
-                              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                              <a class="nav-link link-scroll" href="#">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link" href="#about">About Us</a>
+                              <a class="nav-link link-scroll" href="#about">About Us</a>
                             </li>
                             <li class="nav-item">
-                                    <a class="nav-link" href="#services">Services</a>
+                                    <a class="nav-link link-scroll" href="#services">Services</a>
                                   </li>
                                   <li class="nav-item">
-                                        <a class="nav-link" href="#contact">Contact</a>
+                                        <a class="nav-link link-scroll" href="#contact">Contact</a>
                                       </li>
                                       <li class="nav-item">
-                                            <a class="nav-link" href="#gallery">Gallery</a>
+                                            <a class="nav-link link-scroll" href="#gallery">Gallery</a>
                                           </li>
                             
                             
                         </div>
                       </nav>
-
+                    </header>
+                    <br><br>
+                    <section>
                       <div id="demo" class="carousel slide" data-ride="carousel">
                             <ul class="carousel-indicators">
                               <li data-target="#demo" data-slide-to="0" class="active"></li>
@@ -101,11 +101,13 @@
                               <span class="carousel-control-next-icon"></span>
                             </a>
                           </div>
-        </header>
+                        </section>
+
+      
 
         <section id="about">
             <div class="container-fluid">
-                <h2 class="text-center text-capitalize pt-5 "><br>About us</h2>
+                <h2 class="text-center text-capitalize pt-5 "><br><br>About us</h2>
                 <hr class="w-25 mx-auto pt-5 ">
 
                 <div class="row mb-5">
@@ -124,7 +126,8 @@
         </section>
         <section id="services">
         <div class="container">
-                <h2 class="text-center text-capitalize pt-5 "><br>Services</h2>
+            
+                <h2 class="text-center text-capitalize pt-5 "><br><br>Services</h2>
                 <hr class="w-25 mx-auto pt-5 ">
 
                 
@@ -140,7 +143,7 @@
                                           <div class="card-body">
                                             <h4 class="card-title">Home Stay</h4>
                                             <p class="card-text">Some example text.</p>
-                                            <a href="#" class="btn btn-primary">View Service</a>
+                                            <a href="homestay.html" class="btn btn-primary">View Service</a>
                                           </div>
                                         </div>
                             </div>
@@ -172,13 +175,13 @@
 
 </div>
         </section>
-        <section class="bg-primary " id="contact"><br>
+        <section class="bg-primary " id="contact">
+
 
             <article class="py-5 ">
-                <div class="text-center">
+                <div class="text-center"><br><br>
                     <h3 class="display-4 text-white">
-                        +91-9742431424<br>
-                        +91-9738037549
+                        +91-9742431424
                     </h3>
                     <p class="text-white">Call For Booking</p>
                     <button class="btn btn-warning"data-toggle="modal" data-target="#myModal">Contact Now</button>
@@ -195,7 +198,7 @@
                             
                             <!-- Modal body -->
                             <div class="modal-body">
-                                    <form action="">
+                                    <form action="mailto:kawaljeet.ravi2@gmail.com" target="_top">
                                         <div class="form-group">
                                                 <label for="text">Name:</label>
                                                 <input type="text" class="form-control" id="name" autocomplete="off">
@@ -234,11 +237,11 @@
                 
             </article>
 
-        </section>
+        </section><br><br>
 
         <section id="gallery">
                 <div class="container">
-                        <h2 class="text-center text-capitalize pt-5 "><br>Gallery</h2>
+                        <h2 class="text-center text-capitalize pt-5 ">Gallery</h2>
                         <hr class="w-25 mx-auto pt-5 ">
 
                         <div class="row">
